@@ -1,0 +1,36 @@
+.container-login {
+    min-height: 464px;
+    background-color: #6C6C6C;
+    border-radius: 4px;
+    padding: 0 30px;
+}
+
+.container-login h1 {
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 59px;
+    padding-bottom: 30px;
+}
+
+.base-input {
+    border: 1px solid #FEFEFE;
+    border-radius: 4px;
+    font-size: 1em;
+    letter-spacing: -0.015em;
+    color: #263238;
+    height: 50px;
+    background-color: #FEFEFE;
+}
+
+.base-input:focus {
+    background-color: #FEFEFE;
+}
+
+@media (max-width: 576px) {
+    .container-login {
+        width: 300px;
+    }
+}

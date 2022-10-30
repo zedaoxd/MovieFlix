@@ -1,0 +1,28 @@
+.m-container {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -0.015em;
+}
+
+.m-container a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+}
+
+@media (max-width: 780px) {
+    .m-container {
+        font-size: 24px;
+    }
+
+    .m-container p {
+        margin: 0px;
+        height: 40px;
+    }
+
+    .m-container a {
+        font-size: 18px;
+    }
+}

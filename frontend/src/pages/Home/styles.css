@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -0.015px;
+}
+
+.content p {
+    font-size: 22px;
+    letter-spacing: -0.01;
+    width: 320px;
+}
+
+.login {
+    width: 479px;
+}
+
+@media (min-width: 768px) {
+    .content {
+        display: unset;
+    }
+}

@@ -1,0 +1,42 @@
+.main-nav {
+    height: 68px;
+    margin-bottom: 10px;
+}
+
+.nav-logo-text a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    color: black;
+}
+
+.nav-login-logout span {
+    display: none;
+    margin-right: 20px;
+}
+
+.nav-login-logout a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 15px;
+    transition: all 300ms ease-in-out;
+}
+
+@media (min-width: 576px) {
+    .nav-login-logout span {
+        display: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-nav {
+        margin-bottom: 40px;
+    }
+}

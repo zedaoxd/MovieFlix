@@ -1,0 +1,52 @@
+.mdc-container {
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.mdc-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mdc-img-container img{
+    width: 100%;
+    max-width: 610px;
+}
+
+.mdc-title {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    color: white;
+}
+
+.mdc-year {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    color: #FFC700;
+}
+
+.mdc-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    color: white;
+}
+
+.mdc-synopsis-container {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.mdc-synopsis {
+    color: #9e9e9e;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+}
