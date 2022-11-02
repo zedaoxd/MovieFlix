@@ -2,9 +2,9 @@ import axios, { AxiosRequestConfig } from "axios";
 import qs from "qs";
 import { getAuthData } from "./storage";
 
-const BASE_URL = "http://localhost:8080";
-const CLIENT_ID = "myclientid";
-const CLIENT_SECRET = "myclientsecret";
+const BASE_URL = process.env.REACT_APP_BASE_URL ?? "http://localhost:8080";
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID ?? "myclientid";
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET ?? "myclientsecret";
 
 type LoginData = {
   username: string;
