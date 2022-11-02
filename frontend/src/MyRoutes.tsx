@@ -14,6 +14,7 @@ const MyRoutes = () => (
         <Route path="" element={<Movies />} />
         <Route path=":id" element={<MovieDetails />} />
       </Route>
+      <Route path="*" element={<Home />} />
     </Routes>
   </BrowserRouter>
 );
