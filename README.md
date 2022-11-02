@@ -31,17 +31,21 @@ Exceção - Texto vazio - O sistema apresenta uma mensagem de que não é permit
 
 
 ## Layout desktop
+<div styles={height: 1080px}>
+  <img src="https://user-images.githubusercontent.com/55067151/197829678-1b0f1631-6aad-4d4c-aaeb-be31fa9c7a7c.png" alt="layout mobile main" />
+  <img src="https://user-images.githubusercontent.com/55067151/198893865-23e5ab11-650d-46f4-a5c3-b92dd3fdcce1.png" alt="layout mobile main" />
+  <img src="https://user-images.githubusercontent.com/55067151/198893863-775aa8fe-aa10-4b7c-9fd7-86806a5c51c3.png" alt="layout mobile main" />
+</div>
 
-![s1](https://user-images.githubusercontent.com/55067151/197829678-1b0f1631-6aad-4d4c-aaeb-be31fa9c7a7c.png)
-![s2](https://user-images.githubusercontent.com/55067151/198893865-23e5ab11-650d-46f4-a5c3-b92dd3fdcce1.png)
-![s3](https://user-images.githubusercontent.com/55067151/198893863-775aa8fe-aa10-4b7c-9fd7-86806a5c51c3.png)
 
 
 ## Layout mobile
+<div styles={width: 100%}>
+  <img src="https://user-images.githubusercontent.com/55067151/197829676-98c06afe-a79a-4a1a-b5e3-cb886198f157.png" alt="layout mobile main" width="33%" />
+  <img src="https://user-images.githubusercontent.com/55067151/198893942-cf550562-be7a-4ebc-8322-2765d734253b.png" alt="layout mobile movies" width="33%" />
+  <img src="https://user-images.githubusercontent.com/55067151/198893939-ae8f0ac3-e27e-4331-8e04-fa6afc4b0140.png" alt="layout mobile reviews" width="33%" />
+</div>
 
-<img src="https://user-images.githubusercontent.com/55067151/197829676-98c06afe-a79a-4a1a-b5e3-cb886198f157.png" alt="layout mobile main" width="350" />
-<img src="https://user-images.githubusercontent.com/55067151/198893942-cf550562-be7a-4ebc-8322-2765d734253b.png" alt="layout mobile movies" width="350" />
-<img src="https://user-images.githubusercontent.com/55067151/198893939-ae8f0ac3-e27e-4331-8e04-fa6afc4b0140.png" alt="layout mobile reviews" width="350" />
 
 
 ## Tecnologias utilizadas
